@@ -47,10 +47,15 @@ public class Main {
 
         Set<? extends RuntimeException> set = new HashSet<RuntimeException>();
         Car car = new Car(2, Color.BLACK, "BMW");
+        car = null;
         System.gc();
-        while (Car.getCarCount() > 0) {
+//        while (Car.getCarCount() > 0) {
+//
+//        }
 
-        }
+        System.out.println("stach test test test!!!!!!!!!!!!!!!!");
+
+//      stach test test test
 
 
     }
