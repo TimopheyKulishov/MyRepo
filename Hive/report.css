@@ -1,0 +1,71 @@
+body, table  { margin: 0; background-color: #FFFFFF; font-family: Tahoma; font-size: 10pt }
+
+#menu        { width: 100%; position: absolute; top:0; background: transparent }	            
+#menu span   { background:#FFFFE0; width: 100%; padding-left: 6; padding-right: 6; padding-top: 0; padding-bottom: 2 }
+#menu table  { background: transparent; }
+#menu td     { background: transparent; padding: 0 }
+
+h2           { font-size: 11pt; text-align: center }
+img          { margin:3 6; border:0 none; width: 9; height: 9; float:left }
+td           { vertical-align: top; padding-left: 8px; padding-right: 8px; padding-top: 2px; padding-bottom: 2px }
+td.box       { padding-left: 2px; padding-right: 2px; padding-top: 4px; padding-bottom: 4px }
+td.box a     { color: #000000; text-decoration:none }
+span.r       { color: #FF0000 }
+
+#info        { border: 1px solid #E0E0E0; background-color: #F8F8F4 }
+#info tr.a   { background-color: #FFFFFF }
+#info tr.b   { background-color: #F0F0EC }
+#info tr.h   { background-color: #DBE8F0; text-align: center; font-weight: bold }
+#info td.a   { text-align: left }
+#info td.b   { text-align: right }
+#info td.c   { text-align: justify }
+#info td.h   { text-align: center }
+#info span.i { font-style: italic; color: #800000 }
+
+#hive table       { width: 100% }
+#hive table tr.a  { background-color: #FFFFFF }
+#hive table tr.b  { font-weight: bold }
+
+table.list        { margin-top: 4 }
+table.list tr.c   { font-family: Courier New }
+table.list tr.d   { font-family: Courier New }
+table.list tr.e   { font-weight: bold }
+
+table.key tr.b    { background-color: #DBE8F0 }
+table.key tr.c    { background-color: #FFFFFF }
+table.key tr.d    { background-color: #F0F4F4 }
+
+table.value tr.b  { background-color: #DBE8F0 }
+table.value tr.c  { background-color: #FFFFFF }
+table.value tr.d  { background-color: #F4F8F4 }
+table.value tr.e  { background-color: #DAEAD5 }
+
+table.dir tr.b    { background-color: #DBE8F0 }
+table.dir tr.c    { background-color: #FFFFFF }
+table.dir tr.d    { background-color: #F0F4F4 }
+
+table.file tr.b   { background-color: #DBE8F0 }
+table.file tr.c   { background-color: #FFFFFF }
+table.file tr.d   { background-color: #F0F4F4 }
+
+table.stream tr.b { background-color: #DBE8F0 }
+table.stream tr.c { background-color: #FFFFFF }
+table.stream tr.d { background-color: #F0F4F4 }
+
+table.sid tr.b    { background-color: #DAEAD5 }
+table.sid tr.c    { background-color: #FFFFFF }
+table.sid tr.d    { background-color: #F4F8F4 }
+table.sid td.r    { text-align: right }
+table.sid table.list tr.c { font-family: Tahoma }
+table.sid table.list tr.d { font-family: Tahoma }
+table.sid table.list td   { border-right:1px solid #DAEAD5 }
+table.sid table.list td.b { border-right-width:0px }
+
+table.acl tr.b    { background-color: #DAEAD5 }
+table.acl tr.c    { background-color: #FFFFFF }
+table.acl tr.d    { background-color: #F4F8F4 }
+table.acl td.r    { text-align:right }
+table.acl table.list tr.c { font-family: Tahoma }
+table.acl table.list tr.d { font-family: Tahoma }
+table.acl table.list td   { border-right:1px solid #DAEAD5 }
+table.acl table.list td.b { border-right-width:0px }
