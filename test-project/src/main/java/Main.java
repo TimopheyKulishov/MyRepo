@@ -45,15 +45,14 @@ public class Main {
 //        assert true;
 //        System.out.println("hi");
 
-//        Set<? extends RuntimeException> set = new HashSet<RuntimeException>();
-//        Car car = new Car(2, Color.BLACK, "BMW");
-//        car = null;
-//        System.gc();
+        Set<? extends RuntimeException> set = new HashSet<RuntimeException>();
+        Car car = new Car(2, Color.BLACK, "BMW");
+        car = null;
+        System.gc();
 //        while (Car.getCarCount() > 0) {
 //
 //        }
 
-        System.out.println(InetAddress.getLocalHost().getHostAddress());
 
 
 
